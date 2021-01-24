@@ -13,5 +13,8 @@ public class ExampleGui extends LightweightGuiDescription {
 
         WLabel label = new WLabel("Hello Team Mars!");
         root.add(label, 1, 1);
+        
+        CustomGuiText custom = new CustomGuiText();
+        root.add(custom, 20, 20);
     }
 }
