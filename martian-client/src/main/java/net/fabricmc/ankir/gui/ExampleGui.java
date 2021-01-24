@@ -8,7 +8,7 @@ public class ExampleGui extends LightweightGuiDescription {
     public ExampleGui() {
         WGridPanel root = new WGridPanel();
         setRootPanel(root);
-        root.setSize(100, 20);
+        root.setSize(100, 25);
 
 
         WLabel label = new WLabel("Hello Team Mars!");

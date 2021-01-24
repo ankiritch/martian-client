@@ -17,7 +17,6 @@ public class GuiItem extends Item{
 
     @Override
     public TypedActionResult<ItemStack> use(World world, PlayerEntity user, Hand hand) {
-        MinecraftClient.getInstance().openScreen(new ExampleScreen(new ExampleGui()));
         return super.use(world, user, hand);
     }
 }
